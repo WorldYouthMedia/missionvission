@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "name": "Uday Ladda",
+        "bio": "I am Good at graphic designing, digital and non-digital art and also an video editor .  “The World Youth Media Company” should be known by every single youth in India and so that we can provide you news and updates every day!!",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "name": "Vedika Bajaj",
+        "bio": "I am the HR & PR at WYM and I make sure my colleagues are comforatble in their areas of work. My vision at WYM is to make it reach heights .We know that we can do it and we will!",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "name": "UDAY LADDA",
+        "bio": "Good at graphic designing, digital and non-digital art and also an video editor . I am glad that i have joined WYM and my vision in WYM is that one day I Want all of us to reach peeks and - 'The World Youth Media Company' should be known by every single youth in India and so that we can provide you news and updates every day!! , Thankyou!",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "name": "Pruthviraj Patil",
+        "bio": "I have been working with WYM since its start,  I do content writing and other extended projects for WYM. As we are starting out, I have the opportunity to work in any department I want. The opportunity to collaborate and build projects with the team has made me stick to WYM.!",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "name": "P. Karthikeya",
+        "bio": "16•I can never get bored of reading news and can never stop sharing information and knowledge to others .I am greatful to join The WYM team which is friendly and the nature of the team is fabulous which makes me strongly believe that this organisation will reach peaks.",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "name": "Gunnin Pandranki",
+        "bio": "I am Gunnin, studying in class 11th grade. I am a smart and cooperative team player, who is looking forward to doing work with our team. I am a youtube analyzer and a team supporte my vision is to take my dream company, WYM to a new level.",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "name": "Kamna Jain",
+        "bio": "16• I take my work very seriously and I'm compassionate. I am 16 years old and study at The Hyderabad Public School. At WYM , I am the sub-editor for youth.",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "name": "Raajveer Nath",
+        "bio": "My name is Raajveer Nath and I'm the anchor for World youth Media. I love playing Football, editing videos in my free time and play Fotnite with my friends",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "name": "Suhani Jaggi",
+        "bio": "I am a 12th grader and one could describe me as an avid MUNner , a writer/poet, and a fashion enthusiast. WYM has huge potential in the digital space, and in the near future I would like to see it promote extracurriculars among students at a very large scale",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "name": "Vedanth Nath",
+        "bio": "At 15 years old, I am extremely honoured to be the director and co-founder of WYM. News geek, history and science related bookworm, football fan, eager to get out of the house and be a doer. 'WYM is not one of the bottle' - José Mourinho",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "name": "Mohammed Hussain ",
+        "bio": "At 15 years old, I am extremely honored to be the director and co-founder of WYM. News geek, history and science-related bookworm, football fan, eager to get out of the house and be a doer. I love innovating, jumping high and sorting the mess of the fall!",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "name": "Arya Nadella",
+        "bio": "Hey! I am Arya Nadella and my role in the WYM was to script the Maverick In A Minute platform. Plus, I occasionally proof-read documents and create titles for the dailies section. Now, when it comes to my vision in WYM - I see a revolutionary legion",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "name": "Gurbani Jaggi",
+        "bio": "I am a tenth grader and I play the role of a journalist at WYM. I have learnt so much in the past couple weeks that I spent at WYM and I hope this continues to grow. My vision for WYM is to make it big in the education and media industry.",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "name": "Mahin Sanklecha",
+        "bio": "I'm 14 years old. I'm a web developer at wym. I'm passionate about drawing and cricket. Extremely geeky about new technology.",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "name": "Sohom Pal",
+        "bio": "I am a Web Developer at WYM. My code never has bugs, it just develops random unexpected features(cool ones).. WYM brings out everyone's inner passionate and creative self :)",
+        "image": {
+          "fields": { "file": { "url": "/imgs/team-one.jpg" } }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "name": "Maverick In A Minute",
+        "bio": "This division uploads content related to the innovators and the entrepreneurs of the country. Or as we call, the ‘Mavericks of our Nation’. We deliver the unheard stories of our country’s greatest revolutionists. Their battles, their victories, their failures- all summarized in a minute! ",
+        "image": {
+          "fields": { "file": { "url": "/imgs/maverick.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "name": "Talkshows",
+        "bio": "This platform features interviews with touching and inspirational members of our society. In this salvo, our guests explain the stories of their success and their personal viewpoint of changes in the dynamic world. While you may have heard of them, this platform provides every bit and detail to know about them and their journey. ",
+        "image": {
+          "fields": { "file": { "url": "/imgs/maverick.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "name": "Green Recovery",
+        "bio": "This is a platform that aims to tackle the microplastic infestation. We provide multiple features for our members, including a plastic consumption tracker, a digital forum for members, a platform to spread news, and a search engine for ecological alternatives to plastic packaging and products. ",
+        "image": {
+          "fields": { "file": { "url": "/imgs/maverick.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "name": "WYM Community- Creators",
+        "bio": "Content Creation through social media has become quite popular among teenagers during the COVID period. Our main aim is to build a community of young creators to allow them to collaborate with us and fellow community members and be a part of our mutually benefitting scheme. Singers, tech enthusiasts, activist groups, writers, poets, awareness groups and entertaining young artists are some types of creators WYM collaborates with.  ",
+        "image": {
+          "fields": { "file": { "url": "/imgs/maverick.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "name": "WYM Entrepreneurship Program",
+        "bio": "This is a program designed for students in the age group 13-18 which aims at teaching  them the basics of building a startup/business and analysing an existing or upcoming business model through an interactive 18 day camp, where participants can learn and apply the skills they learn.. Apart from the technical teachings we would propose. We combine some of the top running courses of the world from Journalism + writing, Marketing and Web development in the 18 day comb ",
+        "image": {
+          "fields": { "file": { "url": "/imgs/maverick.jpeg" } }
+        }
+      }
+    }
+  ]
+}

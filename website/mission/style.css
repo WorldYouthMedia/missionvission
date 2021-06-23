@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Gilroy" !important;
+}
+
+html,
+body {
+  /* cursor: url(cursor.png), auto !important; */
+  cursor: url("http://downloads.totallyfreecursors.com/cursor_files/black2.ani"),
+    url("http://downloads.totallyfreecursors.com/thumbnails/black2.gif"), auto;
+  background-color: #131415;
+  background-image: url("https://web-assets.cred.club/_next/assets/images/home-page/hero-bg-mobile.png");
+  background-size: cover;
+  background-position: right bottom;
+  scroll-snap-type: y mandatory;
+}
+
+/* custom scroll bar */
+
+/*scroll bar width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*scroll bar Track */
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+
+/*scroll bar Handle */
+::-webkit-scrollbar-thumb {
+  background: #5d5c5c;
+}
+
+/* scroll bar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #292828;
+}
+
+a,
+a:visited {
+  color: #76b7f7;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+
+  grid-template-rows: 1fr 50px;
+  justify-items: center;
+
+  align-items: center;
+
+  perspective: 2000px;
+}
+
+.deck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-space:hover .card {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.card {
+  border-radius: 10px;
+  height: 380px;
+  width: 350px;
+  margin: 10px;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.card h1 {
+  margin-top: 5px;
+  font-size: 3rem;
+}
+
+.card p {
+  margin-top: 0px;
+font-size:1.5rem;
+}
+
+.face {
+  color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
+  background-color: #2b48be;
+  padding: 20px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.face h1 {
+  padding: 0;
+}
+
+.face.front {
+  text-align: center;
+  z-index: 20;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+.face.back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  .deck {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+

@@ -1,0 +1,57 @@
+/* basic setup */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Gilroy" !important;
+  }
+
+  /* setting the page */
+html,
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* cursor: url(cursor.png), auto !important; */
+  cursor: url("http://downloads.totallyfreecursors.com/cursor_files/black2.ani"),
+    url("http://downloads.totallyfreecursors.com/thumbnails/black2.gif"), auto;
+  background-color: #131415;
+  background-image: url("https://web-assets.cred.club/_next/assets/images/home-page/hero-bg-mobile.png");
+  background-size: cover;
+  background-position: right bottom;
+  scroll-snap-type: y mandatory;
+}
+
+/* custom scroll bar */
+
+/*scroll bar width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /*scroll bar Track */
+  ::-webkit-scrollbar-track {
+    background: #101010;
+  }
+  
+  /*scroll bar Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5d5c5c;
+  }
+  
+  /* scroll bar Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #292828;
+  }
+
+
+iframe{
+    margin: 5rem;
+    width: 80vw;
+    height:80vh;
+    border: none;
+    border-radius:33px;
+}

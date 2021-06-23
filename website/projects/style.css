@@ -1,0 +1,164 @@
+/* basic setup */
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Gilroy" !important;
+}
+
+/* setting the page */
+html,
+body {
+  /* cursor: url(cursor.png), auto !important; */
+  cursor: url("http://downloads.totallyfreecursors.com/cursor_files/black2.ani"),
+    url("http://downloads.totallyfreecursors.com/thumbnails/black2.gif"), auto;
+  background-color: #131415;
+  background-image: url("https://web-assets.cred.club/_next/assets/images/home-page/hero-bg-mobile.png");
+  background-size: cover;
+  background-position: right bottom;
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* custom scroll bar */
+
+/*scroll bar width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*scroll bar Track */
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+
+/*scroll bar Handle */
+::-webkit-scrollbar-thumb {
+  background: #5d5c5c;
+}
+
+/* scroll bar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #292828;
+}
+
+.header {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+}
+
+.header h1 {
+  position: relative;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 4rem !important;
+}
+
+@media (max-width: 1050px) {
+  .header {
+    left: 50%;
+  }
+
+  .header h1 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+}
+
+.container {
+  position: relative;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr));
+  grid-gap: 10rem;
+  margin: 20rem auto;
+  padding: 40px 0;
+}
+
+.container .card {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
+  color: #fff;
+  background: #000;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+
+.container .card .face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card .face.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.container .card .face.face2 {
+  transition: 0.5s;
+}
+.container .card .face.face2 h2 {
+  margin: 2rem;
+  padding: 0;
+  font-size: 3em;
+  color: #fff;
+  transition: 0.5s;
+  text-shadow: 2px 3px 0px #33333b;
+  z-index: 10;
+}
+.container .card:hover .face.face2 {
+  height: 60px;
+}
+.container .card:hover .face.face2 h2 {
+  font-size: 2em;
+}
+
+.container .card .face.face2 {
+  background-color: #2b48be;
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+}
+
+.card .content p {
+    position: absolute;
+top:58%;
+left:0;
+font-size:1.2rem;
+margin: 2rem;
+padding:2rem;
+}
+
+.projectIMG {
+  display: block;
+  width: 70%;
+  height: 20rem;
+  position: relative;
+  left:15%;
+  top:5%;
+  transition: all 0.3s linear;
+  border-radius: 18px;
+  user-select: none;
+  pointer-events: none;
+  border: 5px solid #fff;
+}
+
